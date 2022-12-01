@@ -1,0 +1,106 @@
+.bg_teams {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("/images/bg-auth.jpg");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+.bg-auth {
+    background-image: url("/images/bg-auth.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.bg-form-auth {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+}
+
+.w-auth, .w-positions {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 998px) {
+    .w-auth {
+        width: 50%;
+    }
+
+    .w-positions {
+        width: 75%;
+    }
+}
+
+.overflow-x-scroll {
+    overflow-x: auto;
+}
+
+.drop-down-mh {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.w-90 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.partido {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+    margin: 0 auto;
+}
+
+.fs-big {
+    font-size: 50px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 992px) {
+    .grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hover:hover {
+    color: red !important;
+}
+
+.clasif-div {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    width: 175px;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    margin: 0 auto;
+}
+
+.ml-px {
+    margin-left: 50px;
+}
+
+.mr-px {
+    margin-right: 50px;
+}
+
+.cursor-disable {
+    cursor: not-allowed;
+}
